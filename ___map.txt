@@ -1,0 +1,12 @@
+
+
+
+
+
+index.js
+|--- App [isDarkMode: Parent] 
+    |--- Header [isDarkMode: Child] 
+    |--- ShoppingList [selectedCategory: Parent, items: Parent]
+        |--- ItemForm 
+        |--- Filter [selectedCategory: Child]
+        |--- Item [items: Child]
