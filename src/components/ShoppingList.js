@@ -4,10 +4,6 @@ import Filter from "./Filter";
 import Item from "./Item";
 
 
-/* 
-id, name, category, isInCart
-*/
-
 function ShoppingList() {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [items, setItems] = useState([]);
